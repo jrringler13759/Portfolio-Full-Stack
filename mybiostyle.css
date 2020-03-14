@@ -1,0 +1,48 @@
+body {
+    background: rgb(250, 231, 250);
+    color: rgb(240, 156, 240);
+}
+
+nav {
+    display: inline-block;
+    background: rgb(59, 1, 65);
+    color: rgb(240, 156, 240);
+
+}
+
+nav a {
+    color: rgb(240, 156, 240);
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(238, 189, 245);
+}
+nav a:focus {
+    text-decoration: none;
+    color: rgb(64, 5, 71);
+    background: white;
+}
+nav a:active {
+    text-decoration: none;
+    color: rgb(238, 189, 245);
+}
+
+
+header {
+    color: rgb(59, 1, 65);
+    background: rgb(240, 156, 240);
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    display: inline-block;
+    height: 100%;
+}
+
+
