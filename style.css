@@ -1,0 +1,93 @@
+body {
+    background: rgb(250, 231, 250);
+    color:rgb(236, 194, 248);
+}
+
+nav {
+    display: inline-block;
+    background: rgb(59, 1, 65);
+    color: rgb(236, 194, 248);
+
+}
+
+nav a {
+    color: rgb(236, 194, 248);
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: rgb(236, 194, 248);
+}
+
+
+nav a:active {
+    text-decoration: none;
+    color: rgb(236, 194, 248);
+}
+  
+header {
+    color: rgb(54, 1, 65);
+    background: rgb(236, 194, 248);
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: 'Julius Sans One', sans-serif;
+    display: inline-block;  
+    padding: 20px;
+}
+
+
+
+
+
+
+
+/* portfolio */
+
+.container {
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    width: 50%;
+    height: 100%;
+    color:  rgb(54, 1, 65);
+    text-align: center;
+    background: rgb(236, 194, 248);
+
+}
+
+.col {
+    padding: 20px;
+    margin: 15px;
+    font-size: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    position: relative; 
+    
+} 
+
+
+.title {
+    background: rgb(54, 1, 65);
+    color:rgb(236, 194, 248);
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+  }
+
+/* contact */
+
+
+
+/* about me */
+p {
+    font-size: 16px;
+}
