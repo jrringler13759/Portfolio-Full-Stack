@@ -3,6 +3,7 @@ body {
     color:rgb(236, 194, 248);
 }
 
+/* Nav Bar and footer */
 nav {
     display: inline-block;
     background: rgb(59, 1, 65);
@@ -42,8 +43,12 @@ header {
     padding: 20px;
 }
 
-
-
+footer {
+    background:  rgb(54, 1, 65);
+    color:  rgb(236, 194, 248);
+    text-align: center;
+    height: 60px;
+}
 
 
 
@@ -81,7 +86,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 200px;
-  }
+}
 
 /* contact */
 
@@ -90,4 +95,5 @@ header {
 /* about me */
 p {
     font-size: 16px;
+    
 }
