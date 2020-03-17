@@ -21,20 +21,21 @@ nav a {
 
 }
 
-nav a:hover {
+a:hover {
     text-decoration: none;
-    color: rgb(236, 194, 248);
+    color: white;
 }
 
 
-nav a:active {
+a:active {
     text-decoration: none;
-    color: rgb(236, 194, 248);
+    color: white;
 }
   
-header {
+.brand-name {
     color: rgb(54, 1, 65);
     background: rgb(236, 194, 248);
+    top: 25px;
     padding: 20px;
     margin-left: 10px;
     font-size: 40px;
@@ -42,12 +43,17 @@ header {
     display: inline-block;  
     padding: 20px;
 }
+.brand-name-div{
+    margin-top: -10px !important;
+}
 
 footer {
     background:  rgb(54, 1, 65);
     color:  rgb(236, 194, 248);
     text-align: center;
     height: 60px;
+    position: fixed;
+    bottom: 0;
 }
 
 
@@ -88,8 +94,27 @@ footer {
     width: 200px;
 }
 
-/* contact */
+.title a {
+    color: rgb(236, 194, 248);
+}
 
+.title a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* contact */
+.btn-primary {
+    background: rgb(54, 1, 65);
+    border-color: rgb(54, 1, 65);
+    color: rgb(236, 194, 248);
+}
+
+.btn-primary:hover {
+    color:rgb(54, 1, 65);
+    background-color:rgb(236, 194, 248);
+    border-color: rgb(54, 1, 65);
+}
 
 
 /* about me */
