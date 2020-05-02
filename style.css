@@ -104,7 +104,6 @@ footer {
 #profilePic{
     display: block;
     width: 300px;
-    transform: rotate(90deg);
     margin: 15px;
     position: relative;
     top: 20px;
