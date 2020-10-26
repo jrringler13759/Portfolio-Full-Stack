@@ -11,7 +11,7 @@
 
 </head>
 <body>
- 
+<!--Navbar links-->
     <nav class = "navbar">
        <div class="brand-name-div">
         <span class="brand-name">Jessica Ringler</span>  
@@ -25,10 +25,11 @@
         </div>
     </nav>
     
-    <main class = "container" id = "aboutme">
-        <div class = "col-md">
+    <main class = "container">
+<!--Bio section-->
+        <section id = "aboutMe">
             <div class = "row justify-content-center">
-                <h1 id = "aboutMe">Bio</h1>
+                <h1 class = "sectionTitle">Bio</h1>
             </div>
             
                 <hr>
@@ -37,14 +38,163 @@
                 <div class = "col-md-4" id = "picCol">
                     <img id = "profilePic" class = "responsive" src = "Assets/profilePic.png" alt = "picture of Jessica Ringler">
                 </div>
-                
-                <br>
+        
+                    <br>
 
                 <div class = "col-md-6" id = "bioCol">
                     <p id = "bio">I have over 8 years of experience teaching mathematics grades 6-12.  My knowledge in mathematics has made my transition to Web Development easy.  I enjoy the nature of coding because it parallels my ninja skills in mathematics.</p>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section id = "portfolio">
+
+            <div class = "row justify-content-center">
+                <h1 class = "sectionTitle">Portfolio</h1>
+            </div>
+            
+                <hr>
+            
+            <div class = "row justify-content-center">
+                
+                <div class="card" id = "infoInternacional">
+                    <div class="row no-gutters">
+                        <div class="col-sm-5 projectPic">
+                            <img class = "card-img" src="Assets/infoInt.png" alt="country search">
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body">
+                                <h5 class="card-title">Info Internacional</h5>
+                                <p><h6>Description:</h6>  <span class = "cardText">The user can search a country of their choice and is presented with current photographs, time, and weather of the chosen country.</span></p>
+                                <p><h6>Technologies Used: </h6><span class = "cardText">Unsplash API, Openweathermap API, HTML, CSS, and JavaScipt</span></p>
+                                <a href="https://github.com/jrringler13759/RinglerProject1.git" target = "blank" class="btn btn-primary">GitHub Repo</a>
+                                <a href="https://jrringler13759.github.io/RinglerProject1/" target = "blank" class="btn btn-primary">Live Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id = "weatherDashboard">
+                    <div class="row no-gutters">
+                        <div class="col-sm-5 projectPic">
+                            <img class = "card-img" src="Assets/weather.png" alt="weather dashboard">
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body">
+                                <h5 class="card-title">Weather Dashboard</h5>
+                                <p><h6>Description:</h6>  <span class = "cardText">User can search for any city nation-wide. They are presented with the current weather as well as a five-day forecast.</span></p>
+                                <p><h6>Technologies Used: </h6><span class = "cardText">HTML, CSS, and JavaScipt</span></p>
+                                <a href="https://github.com/jrringler13759/HW6.git" target = "blank" class="btn btn-primary">GitHub Repo</a>
+                                <a href="https://jrringler13759.github.io/HW6/" target = "blank" class="btn btn-primary">Live Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id = "budgetTracker">
+                    <div class="row no-gutters">
+                        <div class="col-sm-5 projectPic">
+                            <img class = "card-img" src="Assets/budget.png" alt="budget tracker">
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body">
+                                <h5 class="card-title">Offline Budget Tracker</h5>
+                                <p><h6>Description:</h6><span class = "cardText">This is an online/offline application for keeping track of your budget. The user is able to add and subtract funds and is also presented with a graph of their usage.</span></p>
+                                <p><h6>Technologies Used: </h6><span class = "cardText">IndexedDB, Mongoose, Express  HTML, CSS, and JavaScipt</span></p>
+                                <a href="https://github.com/jrringler13759/Offline-Budget-Tracker-HW18" target = "blank" class="btn btn-primary">GitHub Repo</a>
+                                <a href="https://vibrant-saucisson-39673.herokuapp.com/" target = "blank" class="btn btn-primary">Live Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id = "SMSOL">
+                    <div class="row no-gutters">
+                        <div class="col-sm-5 projectPic">
+                            <img class = "card-img" src="Assets/tutorTracker.png" alt="tutor tracker">
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body">
+                                <h5 class="card-title">SMSOL - Tutor Tracker</h5>
+                                <p><h6>Description:</h6><span class = "cardText">The Student Management System for Online Learning (SMSOL) is a easy to use Web Application for busy teachers to organize student meetings. This application allows teachers to add students to their list, drag and drop them to the interactive calendar and delete or reschedule as needed. When adding students a modal will appear to input the student information. The modal will also be a useful tool for updating currently scheduled students or deleting students from the calendar.</span></p>
+                                <p><h6>Technologies Used: </h6><span class = "cardText">Express-Handlebars, Express, Node.js, Sequelize, FullCalendar.io, Moment.js, Bootstrap, JQuery, Javascript, HTML, and CSS.</span></p>
+                                <a href="https://github.com/jrringler13759/project2-jjem" target = "blank" class="btn btn-primary">GitHub Repo</a>
+                                <a href="https://afternoon-eyrie-99732.herokuapp.com" target = "blank" class="btn btn-primary">Live Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id = "storyFubmle">
+                    <div class="row no-gutters">
+                        <div class="col-sm-5 projectPic">
+                            <img class = "card-img" src="Assets/story.png" alt="story fumble">
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="card-body">
+                                <h5 class="card-title">Story Fumble</h5>
+                                <p><h6>Description:</h6><span class = "cardText">Story Fumble is a web app where the user can blindly enter words into blank spaces creating a funny story. The user first chooses their language and category and then fills in words for the missing parts of speech in the story. After that, the user gets to choose a funny voice that reads the generated story out loud.</span></p>
+                                <p><h6>Technologies Used: </h6><span class = "cardText">HTML, CSS, JavaScipt (ES6), React.js, JSX, Firebase, Web Speech API, Express, Node.js, MongoDB/Atlas, Mongoose, Bootstrap,and React Bootstrap.   </span></p>
+                                <a href="https://github.com/jrringler13759/project2-jjem" target = "blank" class="btn btn-primary">GitHub Repo</a>
+                                <a href="https://afternoon-eyrie-99732.herokuapp.com" target = "blank" class="btn btn-primary">Live Page</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "contactForm">
+            <div class = "row justify-content-center">
+                <h1 class = "sectionTitle">Contact Me</h1>
+            </div>
+            
+                <hr>
+            <div class = "row justify-content-center">
+                <div class = "col-md-8">
+                    <form action = "mailto:jrringler13759@gmail.com" method = "post" enctype = "text/plain">
+                        <div class="form-group">
+                            <label for="validationDefault01">Name</label>
+                            <input type="text" class="form-control" id="validationDefault01" name = "name" required>
+                        </div>
+            
+                        <br>
+                    
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" name = "email" placeholder="name@example.com" required>
+                        </div>
+            
+                        <br>
+            
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" name = "message" rows="5"></textarea>
+                        </div>
+            
+                        <br>
+            
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                        </div>
+            
+                    </form>
+                </div>
+            </div>
+                
+        
+            
+        </section>
+
+    
+
+
+
+
+
+
+
+
 
     </main>
     <footer class = "navbar justify-content-center">&copy; Jessica Ringler  |  
