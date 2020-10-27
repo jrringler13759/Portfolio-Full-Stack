@@ -12,18 +12,17 @@ body {
 }
 
 /* Nav Bar and footer */
-nav {
-    display: inline-block;
-    background: rgb(76, 64, 80);
-    color: white;
-    z-index: 999;
-}
+
 
 .stickyHeader {
     position: fixed;
     top: 0;
     width: 100%;
-  }
+    transition: 0.2s !important;
+    background: rgb(76, 64, 80);
+    color: white;
+    z-index: 999;
+}
 
 .stickyFooter {
     position: fixed;
@@ -35,11 +34,12 @@ nav a, footer a {
     color:  white;
     text-decoration: none;
     font-family: 'Julius Sans One', sans-serif;
-    padding: 5px;
-    margin: 5px;
+    /* padding: 5px;
+    margin: 5px; */
     margin-right: 30px;
-    display: inline-block;
+    /* display: flex; */
     font-size: 20px;
+    position: relative;
 
 }
 
@@ -56,19 +56,20 @@ a:active {
   
 .brand-name {
     color: white;
-   
-    top: 25px;
-    padding: 20px;
-    margin-left: 10px;
-    font-size: 44px;
+  
+
+    /* padding: 20px; */
+    margin: 0 auto;
+    font-size: 40px;
     font-family: 'Julius Sans One', sans-serif;
     display: inline-block;  
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 3px;
 
 }
 .brand-name-div{
     margin-top: -10px !important;
+    position: relative;
 }
 
 footer {
@@ -112,7 +113,12 @@ footer {
 
 
 .row {
+    margin: 10px;
     vertical-align: middle;
+}
+
+hr.thick {
+    border-top: 10px solid rgba(0,0,0,.1);
 }
 
 
@@ -179,9 +185,7 @@ footer {
     border-color: rgb(72, 17, 90);
 }
 
-main#contact {
-    margin-top: 60px;
-}
+
 
 
 /* about me */
@@ -195,16 +199,15 @@ p {
 
 #profilePic{
     display: block;
-    width: 300px;
+    max-width: 100%;
+    height: auto;
     margin-bottom: 30px;
    
     position: relative;
     top: 20px;
 }
 
-.row {
-    margin: 10px;
-}
+
 
 #bio {
     font-size: 18px;
