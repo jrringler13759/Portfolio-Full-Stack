@@ -122,9 +122,11 @@ footer {
     text-align: center;
     height: 90%;
     border-radius: 3px;
+    background-color: rgba(174, 136, 175, 0.571);
+
 }
 
-.container .bg {
+/* .container .bg {
     position: absolute;
     z-index: -1;
     top: 0;
@@ -135,7 +137,7 @@ footer {
     opacity: .4;
     width: 80%;
     height: 100%;
-}
+} */
 
 @media screen and (max-width: 600px) {
     .container {
