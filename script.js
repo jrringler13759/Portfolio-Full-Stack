@@ -1,21 +1,16 @@
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
-    document.getElementById("header").style.height = "10%";
-    document.getElementById("brandName").style.marginTop = "10px";
-    document.getElementById("header").style.marginTop = "-10px";
+// function scrollFunction() {
+//   if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+//     document.getElementById("header").style.height = "10%";
+//     document.getElementById("brandName").style.marginTop = "10px";
+//     document.getElementById("header").style.marginTop = "-10px";
 
-    
-    
-    
+//   } else {
+//     document.getElementById("header").style.margin = "0 auto";
 
-
-  } else {
-    document.getElementById("header").style.margin = "0 auto";
-
-  }
-}
+//   }
+// }
 
 
 

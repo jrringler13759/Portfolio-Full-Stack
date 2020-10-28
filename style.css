@@ -115,14 +115,37 @@ footer {
 
 .container {
     padding: 20px;
-    margin: 135px auto 40px auto;
+    margin: 110px auto 40px auto;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    color:  black;
+    color:  white;
     text-align: center;
-    background: rgba(178, 157, 179, 0.571);
+    height: 90%;
     border-radius: 3px;
 }
+
+.container .bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 163px;
+    right: 0;
+    background: url("Assets/background2.jpg") center center;
+    opacity: .4;
+    width: 80%;
+    height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      margin-top: 160px;
+    }
+    .container .bg {
+      left: 0;
+      width: 100%;  
+    }
+  }
 
 .col {
     padding: 20px;
@@ -168,6 +191,7 @@ hr.thick {
 }
 
 .card {
+    color: black;
     margin: 20px;
     padding: 10px;
     width: 100%;
@@ -229,7 +253,7 @@ p {
     max-width: 100%;
     height: auto;
     margin-bottom: 30px;
-   
+    border-radius: 5px;
     position: relative;
     top: 20px;
 }
