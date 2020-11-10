@@ -6,32 +6,20 @@ html {
 body {
     background-image:rgba(246, 194, 248, 0.571); 
     color:black;
-    margin: 0 0 100px 0;
+    margin-bottom: 100px;
     justify-content: center;
 
 }
 
-/* Nav Bar and footer */
-
-
-.stickyHeader {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    transition: 0.2s !important;
-    background: rgb(76, 64, 80);
+footer {
+    background:  rgb(76, 64, 80);
     color: white;
-    z-index: 999;
-}
-
-.stickyFooter {
-    position: fixed;
+    text-align: center;
+    height: 60px;
+    position: absolute !important;
     bottom: 0;
     width: 100%;
-}
-
-.topnav {
-    overflow: hidden;
+    padding-bottom: 70px !important;
 }
 
 nav a, footer a {
@@ -43,7 +31,31 @@ nav a, footer a {
     float: left;
     font-size: 20px;
     position: relative;
+    margin-left: 7px;
 }
+
+.stickyHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.2s !important;
+    background: rgb(76, 64, 80);
+    color: white;
+    z-index: 999;
+}
+
+
+.stickyFooter {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+
 
 @media screen and (max-width: 600px) {
     .topnav a {display: none;}
@@ -99,17 +111,6 @@ nav a, footer a {
     position: relative;
 }
 
-footer {
-    background:  rgb(76, 64, 80);
-    color: white;
-    text-align: center;
-    height: 60px;
-    position: absolute !important;
-    bottom: 0;
-    width: 100%;
-    padding-bottom: 70px !important;
-}
-
 
 /* portfolio */
 
@@ -159,6 +160,7 @@ footer {
 
 .projectPic {
     margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
    
 }
 
@@ -170,7 +172,8 @@ footer {
 }
 
 hr.thick {
-    border-top: 10px solid rgba(0,0,0,.1);
+    border-top: 10px solid rgba(0,0,0,.2);
+    margin-top: 50px;
 }
 
 
